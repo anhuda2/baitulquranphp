@@ -37,7 +37,7 @@
 <div class="container">
 <div class="row align-items-center position-relative">
 <div class="site-logo">
-    <a href="index.html">
+    <a href="index.php">
 		<img src="images/Kecil.png" alt="Baitul Qur'an Wonogiri" id="logo">
 	</a>
 </div>
@@ -49,7 +49,7 @@
 <li class="has-children">
 <li><a href="#blog-section" class="nav-link">Berita</a></li>
 <li><a href="#contact-section" class="nav-link">Kontak</a></li>
-<li><a href="pendaftaran.html" class="nav-link" id="pendaftaran">Pendaftaran</a></li>
+<li><a href="pendaftaran.php" class="nav-link" id="pendaftaran">Pendaftaran</a></li>
 </ul>
 </nav>
 </div>
@@ -75,7 +75,7 @@
 <div class="col-md-12 col-lg-8">
 <h1 data-aos="fade-up" data-aos-delay="">PENERIMAAN MAHASANTRI<br>BARU</h1>
 <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Tahun ajaran 2023 - 2024</p>
-<p data-aos="fade-up" data-aos-delay="200"><a href="pendaftaran.html" class="btn btn-outline-white border-w-2 btn-md">DAFTAR SEKARANG</a></p>
+<p data-aos="fade-up" data-aos-delay="200"><a href="pendaftaran.php" class="btn btn-outline-white border-w-2 btn-md">DAFTAR SEKARANG</a></p>
 </div>
 </div>
 </div>
@@ -228,20 +228,20 @@ Ma’had yang Aman dan<br> Nyaman
 <div class="row">
 <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="">
 <div>
-<a href="single.html" class="mb-4 d-block"><img src="images/hero_2.jpg" alt="Image" class="img-fluid rounded"></a>
-<h2><a href="single.html">TASMI’ 30JUZ SEKALI MAJLIS</a></h2>
+<a href="single.php" class="mb-4 d-block"><img src="images/hero_2.jpg" alt="Image" class="img-fluid rounded"></a>
+<h2><a href="single.php">TASMI’ 30JUZ SEKALI MAJLIS</a></h2>
 <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">Desember 23, 2020</span></p>
 <p>Alhamdulillah, pada Sabtu, 19 Desember 2020 santri kita Taufiq Khoirin asal sragen telah mengujukan hafalan dengan tasmi’ 30JUZ dalam sekali majlis, dimulai dari ba’da shubuh sampai ashar. Semoga apa yang di hafalkan bisa mendatangkan keberkahan bagi semua...</p>
-<p><a href="single.html">Baca Selengkapnya</a></p>
+<p><a href="single.php">Baca Selengkapnya</a></p>
 </div>
 </div>
 <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="100">
 <div>
-<a href="single2.html" class="mb-4 d-block"><img src="images/hero_1.jpg" alt="Image" class="img-fluid rounded"></a>
-<h2><a href="single2.html">UJIAN AKHIR TAHFIDZ</a></h2>
+<a href="single2.php" class="mb-4 d-block"><img src="images/hero_1.jpg" alt="Image" class="img-fluid rounded"></a>
+<h2><a href="single2.php">UJIAN AKHIR TAHFIDZ</a></h2>
 <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">Desember 22, 2020</span></p>
 <p>Alhamdulillah, dua santri kami pada tanggal 14-16 Desember telah mengujikan hafalan Al-Qur’an 30juz dalam tiga hari yang di uji langsung oelh ustdz Muh.Luthfi dan Ustadz Luthfi...</p>
-<p><a href="single2.html">Baca Selengkapnya</a></p>
+<p><a href="single2.php">Baca Selengkapnya</a></p>
 </div>
 </div>
 </div>

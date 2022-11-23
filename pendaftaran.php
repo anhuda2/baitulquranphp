@@ -37,18 +37,18 @@
 <div class="container">
 <div class="row align-items-center position-relative">
 <div class="site-logo">
-    <a href="index.html">
+    <a href="index.php">
 		<img src="images/Kecil.png" alt="Baitul Qur'an Wonogiri" id="logo">
 	</a>
 </div>
 <div class="col-12">
 <nav class="site-navigation text-right ml-auto " role="navigation">
 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-    <li><a href="index.html" class="nav-link">Home</a></li>
-<li><a href="index.html" class="nav-link">Profil</a></li>
+    <li><a href="index.htmphp" class="nav-link">Home</a></li>
+<li><a href="index.php" class="nav-link">Profil</a></li>
 <li class="has-children">
-<li><a href="index.html" class="nav-link">Berita</a></li>
-<li><a href="index.html" class="nav-link">Kontak</a></li>
+<li><a href="index.php" class="nav-link">Berita</a></li>
+<li><a href="index.php" class="nav-link">Kontak</a></li>
 <li><a href="#home-section" class="nav-link">Pendaftaran</a></li>
 </ul>
 </nav>
@@ -166,7 +166,7 @@ cepat) <br>3. Tes Tertulis
 </div>
 </div>
 
-<a class="btn btn-secondary btn-lg" href="www.jotform.com/form/223258099654466.html">Daftar Sekarang</a>
+<a class="btn btn-secondary btn-lg" href="www.jotform.com/form/223258099654466.php">Daftar Sekarang</a>
 </p>
 
 </p>

@@ -37,19 +37,19 @@
 <div class="container">
 <div class="row align-items-center position-relative">
 <div class="site-logo">
-    <a href="index.html">
+    <a href="index.php">
 		<img src="images/Kecil.png" alt="Baitul Qur'an Wonogiri" id="logo">
 	</a>
 </div>
 <div class="col-12">
 <nav class="site-navigation text-right ml-auto " role="navigation">
 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-<li><a href="index.html" class="nav-link">Home</a></li>
-<li><a href="index.html" class="nav-link">Profil</a></li>
+<li><a href="index.php" class="nav-link">Home</a></li>
+<li><a href="index.php" class="nav-link">Profil</a></li>
 <li class="has-children">
-<li><a href="#home-section" class="nav-link">Berita</a></li>
-<li><a href="index.html" class="nav-link">Kontak</a></li>
-<li><a href="pendaftaran.html" class="nav-link">Pendaftaran</a></li>
+<li><a href="index.php" class="nav-link">Berita</a></li>
+<li><a href="index.php" class="nav-link">Kontak</a></li>
+<li><a href="#home-section" class="nav-link" id="pendaftaran">Pendaftaran</a></li>
 </ul>
 </nav>
 </div>
@@ -57,78 +57,17 @@
 </div>
 </div>
 </header>
-<div class="site-section-cover overlay inner-page bg-light" style="background-image: url('images/hero_3.jpg')" data-aos="fade">
+<div class="owl-carousel slide-one-item">
+<div class="site-section-cover overlay img-bg-section" style="background-image: url('images/hero_3.jpg'); ">
 <div class="container">
 <div class="row align-items-center justify-content-center text-center">
-<div class="col-lg-10">
-<div class="box-shadow-content">
-<div class="block-heading-1">
-<span class="d-block mb-3 text-white" data-aos="fade-up">23 Desember 2020 <span class="mx-2 text-primary">
-<h1 class="mb-4" data-aos="fade-up" data-aos-delay="100">UJIAN AKHIR TAHFIDZ</h1>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section class="blog-section">
-<div class="container">
-<div class="row">
-<div class="col-md-8 blog-content">
-    <img src="images/hero_1.jpg" alt="Image" class="img-fluid rounded">
-    <br><img src="images/berita2.jpg" alt="Image" class="img-fluid rounded">
-    <br><br>
-<p class="lead">Alhamdulillah, dua santri kami pada tanggal 14-16 Desember telah mengujikan hafalan Al-Qur’an 30juz dalam tiga hari yang di uji langsung oelh ustdz Muh.Luthfi dan Ustadz Luthfi baihaqi.</p>
-<div class="pt-5">
-</div>
-<div class="pt-5">
-<h3 class="mb-5">0 Comments</h3>
-<ul class="comment-list">
-<li class="comment">
-<div class="vcard bio">
-
+<div class="col-md-12 col-lg-7">
+<h1 data-aos="fade-up" data-aos-delay="">TERIMA KASIH</h1>
+<p class="mb-5" data-aos="fade-up" data-aos-delay="100">Form Pendaftaran anda berhasil kami terima, mohon tunggu informasi lebih lanjut dari kami</p>
+<p data-aos="fade-up" data-aos-delay="200"><a href="index.php" class="btn btn-outline-white border-w-2 btn-md">KEMBALI KE HOME</a></p>
 </div>
 
-<div class="comment-form-wrap pt-5">
-<h3 class="mb-5">Leave a comment</h3>
-<form action="#" class="">
-<div class="form-group">
-<label for="name">Name *</label>
-<input type="text" class="form-control" id="name">
-</div>
-<div class="form-group">
-<label for="email">Email *</label>
-<input type="email" class="form-control" id="email">
-</div>
-<div class="form-group">
-<label for="website">Website</label>
-<input type="url" class="form-control" id="website">
-</div>
-<div class="form-group">
-<label for="message">Message</label>
-<textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-</div>
-<div class="form-group">
-<input type="submit" value="Post Comment" class="btn btn-primary btn-md text-white">
-</div>
-</form>
-</div>
-</div>
-</div>
 
-</section>
-<footer class="site-footer">
-<p class="copyright"><small>
-
-Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
-
-</small></p>
-</div>
-</div>
-</div>
-</div>
-</footer>
-</div>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -136,6 +75,7 @@ Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728
 <script src="js/jquery.sticky.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/main.js"></script>
@@ -148,7 +88,7 @@ Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728
 
   gtag('config', 'UA-23581568-13');
 </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76e110e33e476ba2","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76e110a16bc36ba2","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.0","si":100}' crossorigin="anonymous"></script>
 </body>
 
 
